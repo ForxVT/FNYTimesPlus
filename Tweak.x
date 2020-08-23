@@ -21,10 +21,6 @@ static void preferencesChanged() {
 	_settingsGeneralEnable = boolValueForKey(@"GENERAL_ENABLE", YES);
 	_settingsArticleAds = boolValueForKey(@"ARTICLES_ADVERTISEMENTS", YES);
 	_settingsArticleNews = boolValueForKey(@"ARTICLE_NEWSLETTERS", YES);
-
-	NSLog(@"[FNYTimesPlus] _settingsGeneralEnable = %d", _settingsGeneralEnable);
-	NSLog(@"[FNYTimesPlus] _settingsArticleAds = %d", _settingsArticleAds);
-	NSLog(@"[FNYTimesPlus] _settingsArticleNews = %d", _settingsArticleNews);
 }
 
 %hook Newsreader_ArticleViewController
