@@ -1,2 +1,3 @@
-# FNYTimesPlus
-Tweak for The New York Times (iOS 13)
+# FNYTImesPlus
+Distributed under the MIT license
+Copyright &copy; 2020 Forx

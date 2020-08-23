@@ -1,0 +1,5 @@
+GENERAL = "Paramètres généraux";
+GENERAL_ENABLE = "Activer";
+ARTICLES = "Paramètres d'articles";
+ARTICLES_ADS = "Cacher les pubs";
+ARTICLES_NEWS = "Cacher les newsletters";

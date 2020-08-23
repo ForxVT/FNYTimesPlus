@@ -1,0 +1,5 @@
+GENERAL = "General";
+GENERAL_ENABLE = "Enable";
+ARTICLES = "Articles";
+ARTICLES_ADS = "Hide advertisements";
+ARTICLES_NEWS = "Hide newsletters";

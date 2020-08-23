@@ -1,0 +1,9 @@
+Package: com.forx.nytimesplus
+Name: FNYTimes+
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Add various options to get a better reading experience on The New York Times.
+Maintainer: Forx <forx.pro@protonmail.com>
+Author: Forx <forx.pro@protonmail.com>
+Section: Tweaks
