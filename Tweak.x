@@ -43,7 +43,6 @@ static void preferencesChanged() {
 
 %ctor {
 	preferencesChanged();
-
 	CFNotificationCenterAddObserver(CFNotificationCenterGetDarwinNotifyCenter(), &_observer, (CFNotificationCallback)preferencesChanged, kSettingsChangedNotification, NULL, CFNotificationSuspensionBehaviorDeliverImmediately);
 
 	if (!_settingsGeneralEnable) {

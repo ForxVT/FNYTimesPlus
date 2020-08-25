@@ -64,7 +64,69 @@
 			<key>PostNotification</key>
 			<string>com.forx.nytimesplus/preferences.changed</string>
 		</dict>
-		   <dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>ABOUT_TWEAK</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>SOURCE_CODE</string>
+			<key>icon</key>
+			<string>github.png</string>
+			<key>action</key>
+			<string>openSourceCodePage</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>ABOUT_ME</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>TWITTER</string>
+			<key>icon</key>
+			<string>twitter.png</string>
+			<key>action</key>
+			<string>openTwitterPage</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>REDDIT</string>
+			<key>icon</key>
+			<string>reddit.png</string>
+			<key>action</key>
+			<string>openRedditPage</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>GITHUB</string>
+			<key>icon</key>
+			<string>github.png</string>
+			<key>action</key>
+			<string>openGithubPage</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>PAYPAL</string>
+			<key>icon</key>
+			<string>paypal.png</string>
+			<key>action</key>
+			<string>openPaypalPage</string>
+		</dict>
+		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>headerCellClass</key>

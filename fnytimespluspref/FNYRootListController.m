@@ -40,4 +40,33 @@ static int (*BKSTerminateApplicationForReasonAndReportWithDescription)(NSString 
 	}
 }
 
+- (void)openSourceCodePage
+{
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://github.com/ForxVT/FNYTimesPlus"] options:@{} completionHandler:nil];
+}
+
+- (void)openTwitterPage
+{
+	if([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"twitter://"]]) {
+		[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"twitter://user?screen_name=ForxVT"] options:@{} completionHandler:nil];
+	} else {
+		[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://twitter.com/ForxVT"] options:@{} completionHandler:nil];
+	}
+}
+
+- (void)openRedditPage
+{
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://www.reddit.com/user/ForxVT"] options:@{} completionHandler:nil];
+}
+
+- (void)openGithubPage
+{
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://github.com/ForxVT"] options:@{} completionHandler:nil];
+}
+
+- (void)openPaypalPage
+{
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://paypal.me/hkindel"] options:@{} completionHandler:nil];
+}
+
 @end
